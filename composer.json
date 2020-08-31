@@ -1,0 +1,23 @@
+{
+    "name": "ormen/ormen",
+    "description": "A simple ORM that tries to keep it simple",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcus Andersson",
+            "email": "marcus@tojoma.se"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Ormen\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4",
+        "ext-pdo": "^",
+        "ext-json": "^"
+    }
+}
